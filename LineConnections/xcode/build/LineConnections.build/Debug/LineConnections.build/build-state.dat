@@ -425,9 +425,9 @@ t1407025271
 s459637
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp
-c0000000053DD8582000000000000051D
-t1407026562
-s1309
+c0000000053DD85BA0000000000000541
+t1407026618
+s1345
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/Info.plist
 c0000000053DD80770000000000000462
@@ -440,7 +440,7 @@ t1407025271
 s301
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app
-t1407026532
+t1407026605
 s102
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/Info.plist
@@ -448,8 +448,8 @@ t1407026449
 s1505
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections
-t1407026565
-s2678620
+t1407026622
+s2678892
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/PkgInfo
 t1407026449
@@ -465,8 +465,8 @@ t1407026449
 s169
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o
-t1407026564
-s1942144
+t1407026622
+s1942220
 
 N/Users/tom/Documents/Programming/Cinder/cinder_master/boost/boost/aligned_storage.hpp
 c00000000513E9EF000000000000010C9
@@ -4442,11 +4442,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies91d1cd03bd8db941^2121ce03bd8db941^---0#1#1#--18"Check dependencies36"F8B74199-3093-4A3D-B577-0543029C3D68-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesae9a133dbd8db941^87fc133dbd8db941^---0#1#1#--18"Check dependencies36"A9E833E5-9571-4720-A6FB-0B8BF2329C73-
 
 CCompileC build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s428719363.815554
-e428719364.972161
+s428719421.090057
+e428719422.253560
 r1
 xCompileC
 xbuild/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o
@@ -4457,8 +4457,8 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp
 d/Users/tom/Documents/Programming/Cinder/cinder_master/include/cinder/app/AppNative.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp258"CompileC build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler1fd9d003bd8db941^fce0f804bd8db941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp0000000000000000^3581"CompileC build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-generated-files.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-own-target-headers.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-all-target-headers.hmap -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-project-headers.hmap -iquote../../../../Programming/Cinder/cinder_master/include -iquote../include -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/include -I../../../../Programming/Cinder/cinder_master/boost -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/DerivedSources/i386 -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/DerivedSources -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -include /var/folders/py/h9k_qx712cd0c272w8yvtb_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LineConnections_Prefix-fvwfztoooodlmvaujtecbzfefljs/LineConnections_Prefix.pch -MMD -MT dependencies -MF /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.d --serialize-diagnostics /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.dia -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o36"741C6AAF-BB64-4A0C-88F1-2860AC46E806-
-bA34728FE-D409-44BB-A015-AE8461B9FCEF
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp258"CompileC build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilercd1f173dbd8db941^07ea403ebd8db941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp0000000000000000^3581"CompileC build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-generated-files.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-own-target-headers.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-all-target-headers.hmap -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/LineConnections-project-headers.hmap -iquote../../../../Programming/Cinder/cinder_master/include -iquote../include -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/include -I../../../../Programming/Cinder/cinder_master/boost -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/DerivedSources/i386 -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/DerivedSources -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -include /var/folders/py/h9k_qx712cd0c272w8yvtb_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/LineConnections_Prefix-fvwfztoooodlmvaujtecbzfefljs/LineConnections_Prefix.pch -MMD -MT dependencies -MF /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.d --serialize-diagnostics /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.dia -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/src/LineConnectionsApp.cpp -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnectionsApp.o36"49927B33-97F7-4F29-A457-000E1E778194-
+bE2E58CCC-D6C2-4D02-BBF4-A69C26E1D7C2
 
 CCpResource /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/resources/CinderApp.icns build/Debug/LineConnections.app/Contents/Resources/CinderApp.icns
 s428719249.139768
@@ -4471,8 +4471,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy bu
 bA5F23C5B-BB8D-41C6-AF45-579E3153F82C
 
 CLd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections normal i386
-s428719364.974435
-e428719365.653935
+s428719422.255995
+e428719422.972412
 r1
 xLd
 x/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections
@@ -4556,8 +4556,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Link /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections77"Ld build/Debug/LineConnections.app/Contents/MacOS/LineConnections normal i386bf81f904bd8db941^9869a705bd8db941^---0#0#1#--1410"Ld build/Debug/LineConnections.app/Contents/MacOS/LineConnections normal i386    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -filelist /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnections.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Programming/Cinder/cinder_master/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnections_dependency_info.dat -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections36"1D35C6BD-52E8-46D4-86E4-2DB84D1895F0-
-bA34728FE-D409-44BB-A015-AE8461B9FCEF
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Link /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections77"Ld build/Debug/LineConnections.app/Contents/MacOS/LineConnections normal i3865f97413ebd8db941^95f0f83ebd8db941^---0#0#1#--1410"Ld build/Debug/LineConnections.app/Contents/MacOS/LineConnections normal i386    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug -filelist /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnections.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Programming/Cinder/cinder_master/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/LineConnections.build/Debug/LineConnections.build/Objects-normal/i386/LineConnections_dependency_info.dat -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/MacOS/LineConnections36"F344852D-1FD2-4D27-900F-522079B63BB3-
+bE2E58CCC-D6C2-4D02-BBF4-A69C26E1D7C2
 
 CProcessInfoPlistFile /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app/Contents/Info.plist /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/Info.plist
 s428719249.137367
@@ -5379,11 +5379,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precomp
 bA5F23C5B-BB8D-41C6-AF45-579E3153F82C
 
 CTouch /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app
-s428719365.655209
-e428719365.659446
+s428719422.973435
+e428719422.976632
 r1
 xTouch
 x/Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app37"Touch build/Debug/LineConnections.app43c6a705bd8db941^c4d2a805bd8db941^---0#0#1#--243"Touch build/Debug/LineConnections.app    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    /usr/bin/touch -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app36"AF0404E8-80DB-48CE-A714-9972A358EED2-
-bA34728FE-D409-44BB-A015-AE8461B9FCEF
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app37"Touch build/Debug/LineConnections.app683cf93ebd8db941^7905fa3ebd8db941^---0#0#1#--243"Touch build/Debug/LineConnections.app    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode    /usr/bin/touch -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/LineConnections/xcode/build/Debug/LineConnections.app36"BD82F1D7-6D16-441A-A7A9-2216E7C87C89-
+bE2E58CCC-D6C2-4D02-BBF4-A69C26E1D7C2
 

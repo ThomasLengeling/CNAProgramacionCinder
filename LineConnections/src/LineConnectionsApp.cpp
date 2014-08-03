@@ -52,7 +52,9 @@ void LineConnectionsApp::draw()
 	// clear out the window with black
 	gl::clear( Color( 1, 1, 1 ) );
     
-    gl::color(ci::ColorA(0.0, 0.0, 0.0, 0.2));
+    gl::enableAlphaBlending();
+    
+    gl::color(ci::ColorA(0.0, 0.0, 0.0, 0.1));
     for(int i = 0; i < history.size(); i++){
         for(int j = 0; j < history.size(); j++){
             if(history[i].distance(history[j]) < 50){
