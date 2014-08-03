@@ -22,7 +22,10 @@ class BasiAppApp : public AppNative {
 void BasiAppApp::setup()
 {
     gl::clear( Color( 0, 0, 0 ) );
-
+    
+    //LINE SMOOTH
+    gl::enable(GL_LINE_SMOOTH);
+    glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
 }
 
 void BasiAppApp::mouseDown( MouseEvent event )

@@ -425,9 +425,9 @@ t1407023993
 s459637
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp
-c0000000053DD7E40000000000000046B
-t1407024704
-s1131
+c0000000053DD802A00000000000004CD
+t1407025194
+s1229
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/BasiApp_Prefix.pch
 c0000000053DD7B79000000000000012D
@@ -445,11 +445,11 @@ t1407024045
 s137
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o
-t1407024706
-s1876380
+t1407025197
+s1877132
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app
-t1407024690
+t1407024707
 s102
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/Info.plist
@@ -457,8 +457,8 @@ t1407024045
 s1481
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp
-t1407024707
-s2664336
+t1407025197
+s2664680
 
 N/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/PkgInfo
 t1407024045
@@ -4442,11 +4442,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies155563c1b58db941^12a363c1b58db941^---0#1#1#--18"Check dependencies36"5AF1BFF8-FB0E-4E26-97FF-CFCC80044DBB-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies08e7ffabb78db941^e82f00acb78db941^---0#1#1#--18"Check dependencies36"B02F7FBC-302E-4689-92AE-FD20658A42A9-
 
 CCompileC build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s428717505.399556
-e428717506.479886
+s428717996.012173
+e428717997.195427
 r1
 xCompileC
 xbuild/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o
@@ -4457,8 +4457,8 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp
 d/Users/tom/Documents/Programming/Cinder/cinder_master/include/cinder/app/AppNative.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp218"CompileC build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilercd5a66c1b58db941^98da7ac2b58db941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp0000000000000000^3213"CompileC build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-generated-files.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-own-target-headers.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-all-target-headers.hmap -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-project-headers.hmap -iquote../../../../Programming/Cinder/cinder_master/include -iquote../include -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/include -I../../../../Programming/Cinder/cinder_master/boost -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/DerivedSources/i386 -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/DerivedSources -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -include /var/folders/py/h9k_qx712cd0c272w8yvtb_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BasiApp_Prefix-amhtkpoiwxbxdlfrkbnirlvqbnbo/BasiApp_Prefix.pch -MMD -MT dependencies -MF /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.d --serialize-diagnostics /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.dia -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o36"BC96894D-F9F6-4772-843B-9E52650752EE-
-b8998FE12-5B82-4A1A-AF94-6786A6C71328
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp218"CompileC build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler6e3103acb78db941^b30732adb78db941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp0000000000000000^3213"CompileC build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-generated-files.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-own-target-headers.hmap -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-all-target-headers.hmap -iquote /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/BasiApp-project-headers.hmap -iquote../../../../Programming/Cinder/cinder_master/include -iquote../include -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/include -I../../../../Programming/Cinder/cinder_master/boost -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/DerivedSources/i386 -I/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/DerivedSources -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -include /var/folders/py/h9k_qx712cd0c272w8yvtb_h0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BasiApp_Prefix-amhtkpoiwxbxdlfrkbnirlvqbnbo/BasiApp_Prefix.pch -MMD -MT dependencies -MF /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.d --serialize-diagnostics /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.dia -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/src/BasiAppApp.cpp -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiAppApp.o36"5C662AC7-70FA-405C-B612-DFDDD724380E-
+b15BA6DF3-AD59-439A-BA7C-F57B2BDD25FE
 
 CCpResource /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/resources/CinderApp.icns build/Debug/BasiApp.app/Contents/Resources/CinderApp.icns
 s428716845.349419
@@ -4471,8 +4471,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy bu
 bC5D6A52E-D67E-4C86-A0FA-4C8A9CBD9D60
 
 CLd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp normal i386
-s428717506.482904
-e428717507.152166
+s428717997.197723
+e428717997.900479
 r1
 xLd
 x/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp
@@ -4556,8 +4556,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp61"Ld build/Debug/BasiApp.app/Contents/MacOS/BasiApp normal i3864bad7bc2b58db941^dcf526c3b58db941^---0#0#1#--1282"Ld build/Debug/BasiApp.app/Contents/MacOS/BasiApp normal i386    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -filelist /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiApp.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Programming/Cinder/cinder_master/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiApp_dependency_info.dat -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp36"0D122A6E-40B6-470C-AFD8-CA3D08432E07-
-b8998FE12-5B82-4A1A-AF94-6786A6C71328
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp61"Ld build/Debug/BasiApp.app/Contents/MacOS/BasiApp normal i386cdab32adb78db941^7286e6adb78db941^---0#0#1#--1282"Ld build/Debug/BasiApp.app/Contents/MacOS/BasiApp normal i386    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -F/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug -filelist /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiApp.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../Programming/Cinder/cinder_master/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/BasiApp.build/Debug/BasiApp.build/Objects-normal/i386/BasiApp_dependency_info.dat -o /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/MacOS/BasiApp36"E6708E2C-E9B6-4548-B8D2-B7978E9933C6-
+b15BA6DF3-AD59-439A-BA7C-F57B2BDD25FE
 
 CProcessInfoPlistFile /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app/Contents/Info.plist /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/Info.plist
 s428716845.346124
@@ -5379,11 +5379,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precomp
 bC5D6A52E-D67E-4C86-A0FA-4C8A9CBD9D60
 
 CTouch /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app
-s428717507.153353
-e428717507.157891
+s428717997.901474
+e428717997.904875
 r1
 xTouch
 x/Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app29"Touch build/Debug/BasiApp.app334e27c3b58db941^c16e28c3b58db941^---0#0#1#--211"Touch build/Debug/BasiApp.app    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    /usr/bin/touch -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app36"5924D467-DB9D-4B17-A900-DD5472742108-
-b8998FE12-5B82-4A1A-AF94-6786A6C71328
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app29"Touch build/Debug/BasiApp.appc8cfe6adb78db941^33a7e7adb78db941^---0#0#1#--211"Touch build/Debug/BasiApp.app    cd /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode    /usr/bin/touch -c /Users/tom/Documents/GitHub/CNAProgramacionCinder/BasiApp/xcode/build/Debug/BasiApp.app36"D226E721-5FA7-42ED-B57F-2BE9034F0CFF-
+b15BA6DF3-AD59-439A-BA7C-F57B2BDD25FE
 
