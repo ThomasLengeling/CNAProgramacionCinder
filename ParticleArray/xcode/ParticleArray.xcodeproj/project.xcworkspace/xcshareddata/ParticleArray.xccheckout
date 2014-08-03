@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>050A5C12-7D66-4CBF-A393-E9DAE043A8A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParticleArray</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>46322F3E-652B-4F30-B340-CF7B76341443</key>
+		<string>https://github.com/ThomasLengeling/CNAProgramacionCinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParticleArray/xcode/ParticleArray.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>46322F3E-652B-4F30-B340-CF7B76341443</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ThomasLengeling/CNAProgramacionCinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>46322F3E-652B-4F30-B340-CF7B76341443</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>46322F3E-652B-4F30-B340-CF7B76341443</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CNAProgramacionCinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>
