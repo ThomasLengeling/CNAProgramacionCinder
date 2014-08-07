@@ -17,7 +17,7 @@ class ImageTestApp : public AppNative {
 	void update();
 	void draw();
 
-	ci::Surface32f  imagen;
+	ci::Surface  imagen;
 
 	ci::params::InterfaceGlRef mParams;
 	ci::Vec2i  step;
@@ -28,7 +28,7 @@ class ImageTestApp : public AppNative {
 
 void ImageTestApp::setup()
 {
-	imagen = Surface32f(loadImage(loadAsset("cinder.png")));
+	imagen = Surface(loadImage(loadAsset("cinder.png")));
 	
 	int h = imagen.getHeight();
 	int w = imagen.getWidth();
@@ -40,7 +40,7 @@ void ImageTestApp::setup()
 	mParams->addParam("Step X", &step.x, "");
 	mParams->addParam("Step Y", &step.y, "");
 
-	step = ci::Vec2i(1, 1);
+	step = ci::Vec2i(15, 15);
 }
 
 void ImageTestApp::mouseDown( MouseEvent event )
@@ -66,16 +66,23 @@ void ImageTestApp::draw()
 		}
 	}
 	gl::end();
-	*/
 
+	Surface::Iter      iterImage(imagen.getIter());
+
+	while (iterImage.line()){
+		while (iterImage.pixel()) {
+	
+		}
+	}
+	*/
 	for (int i = 0; i < imagen.getWidth(); i+=step.x){
 		for (int j = 0; j < imagen.getHeight(); j+=step.y){
-			ci::Color col = imagen.getPixel(ci::Vec2i(i, j));
+			ci::ColorA col = imagen.getPixel(ci::Vec2i(i, j));
 			gl::color(col);
 			gl::drawSolidRect(ci::Rectf(i, j, step.x +i, step.y +j));
 		}
 	}
-
+	
 	mParams->draw();
 
 	//gl::draw(imagen);
