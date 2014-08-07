@@ -22,6 +22,8 @@ class ImageTestApp : public AppNative {
 	ci::params::InterfaceGlRef mParams;
 	ci::Vec2i  step;
 	float	   fps;
+
+	int			drawType;
 };
 
 void ImageTestApp::setup()
