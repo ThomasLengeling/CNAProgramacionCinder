@@ -26,6 +26,9 @@ class VideoTestQTApp : public AppNative {
 	ci::Vec2f * vel;
 	float	   * radius;
 	ci::ColorA * col;
+	float  * life;
+
+	int contador;
 };
 
 void VideoTestQTApp::setup()
@@ -38,25 +41,35 @@ void VideoTestQTApp::setup()
 	int  h = mMovie->getHeight();
 	setWindowSize(w, h);
 
-	pos = new ci::Vec2f[100];
-	vel = new ci::Vec2f[100];
-	col = new ci::ColorA[100];
-	radius = new float[100];
+	pos = new ci::Vec2f[400];
+	vel = new ci::Vec2f[400];
+	col = new ci::ColorA[400];
+	radius = new float[400];
+	life = new float[400];
 
-	for (int i = 0; i < 100; i++){
-		float x = ci::Rand::randFloat(200, 500);
-		float y = ci::Rand::randFloat(200, 500);
-		pos[i] = ci::Vec2f(x, y);
-		float vx = ci::Rand::randFloat(-0.1, 0.1);
-		float vy = ci::Rand::randFloat(-0.1, 0.1);
+	contador = 0;
+
+	for (int i = 0; i < 400; i++){
+		pos[i] = ci::Vec2f(getWindowCenter());
+		float vx = ci::Rand::randFloat(-0.2, 0.2);
+		float vy = ci::Rand::randFloat(-0.2, 0.2);
 		vel[i] = ci::Vec2f(vx, vy);
-		radius[i] = 2 + ci::Rand::randFloat(1, 6);
+		radius[i] = 50 + ci::Rand::randFloat(2, 15);
+		life[i] = ci::Rand::randFloat(20, 55);
 	}
 	
 }
 
 void VideoTestQTApp::mouseDown( MouseEvent event )
 {
+	//if (contador >= 400 - 10)
+	for (int i = contador; i < contador + 10; i++){
+		pos[i] = event.getPos();
+	}
+	
+	contador = contador + 10;
+	if (contador >= 400)
+		contador = 400;
 }
 
 void VideoTestQTApp::update()
@@ -71,11 +84,18 @@ void VideoTestQTApp::update()
 
 
 	if (mSurface){
-		for (int i = 0; i < 100; i++){
-			int x = (int)pos[i].x;
-			int y = (int)pos[i].y;
+		for (int i = 0; i < contador; i++){
+			int x = lmap < float >((int)pos[i].x, 0, getWindowWidth(), 0, mSurface.getWidth());
+			int y = lmap < float >((int)pos[i].y, 0, getWindowHeight(), 0, mSurface.getHeight());
 			col[i] = mSurface.getPixel(ci::Vec2i(x, y));
 			pos[i] += vel[i];
+
+			if (life[i] > 0)
+				life[i] -= 0.1;
+			else{
+				life[i] = 0.0;
+			}
+
 		}
 	}
 }
@@ -83,15 +103,25 @@ void VideoTestQTApp::update()
 void VideoTestQTApp::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 1, 1, 1 ) );
+	//gl::clear( Color( 1, 1, 1 ) );
+	//gl::enableAlphaBlending();
+	//gl::color(0, 0, 0, 0.01);
+	//gl::drawSolidRect(getWindowBounds());
+
 
 	if (mSurface){
 		//gl::draw(mSurface);
 	}
 
-	for (int i = 0; i < 100; i++){
-		gl::color(col[i]);
-		gl::drawSolidCircle(pos[i], radius[i]);
+	for (int i = 0; i < contador; i++){
+		if (life[i] > 0){
+			gl::color(col[i]);
+			gl::drawSolidCircle(pos[i], radius[i]);
+
+			if (radius[i] > 2){
+				radius[i] -= 0.1;
+			}
+		}
 	}
 }
 
