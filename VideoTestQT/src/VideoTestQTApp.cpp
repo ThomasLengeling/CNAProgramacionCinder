@@ -17,9 +17,9 @@ class VideoTestQTApp : public AppNative {
 	void update();
 	void draw();
 
-	gl::Texture					mTexture;
-	ci::Surface                 mSurface;
-	ci::qtime::MovieGlRef		mMovie;
+	gl::Texture						mTexture;
+	ci::Surface						mSurface;
+	ci::qtime::MovieSurfaceRef		mMovie;
 
 	//Particula
 	ci::Vec2f * pos;
@@ -33,7 +33,7 @@ class VideoTestQTApp : public AppNative {
 
 void VideoTestQTApp::setup()
 {
-	mMovie = qtime::MovieGl::create(loadAsset("video.mp4"));
+	mMovie = qtime::MovieSurface::create(loadAsset("video_test.mov"));
 	mMovie->setLoop();
 	mMovie->play();
 
@@ -75,11 +75,7 @@ void VideoTestQTApp::mouseDown( MouseEvent event )
 void VideoTestQTApp::update()
 {
 	if (mMovie){
-		mTexture = mMovie->getTexture();
-		if (mTexture){
-			int index = 0;
-			mSurface = Surface(mTexture);
-		}
+		mSurface = mMovie->getSurface();
 	}
 
 
